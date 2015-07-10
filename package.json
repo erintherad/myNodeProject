@@ -2,13 +2,17 @@
   "name": "My_node_project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Erin Mahoney",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.1"
+    "chai": "^3.0.0",
+    "express": "^4.13.1",
+    "mocha": "^2.2.5",
+    "request": "^2.58.0",
+    "underscore": "^1.8.3"
   }
 }
